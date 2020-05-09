@@ -1,15 +1,32 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="es">
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Document</title>
+    <title>Lean's Fractal Tree</title>
     <link rel="stylesheet" href="style.css" />
   </head>
   <body>
+    <div id="head">
+      <h1>Lean's fractal tree</h1>
+      <div id="control-panel">
+        <div class="form-group">
+          <label for="left-angle-select">Delta ángulo izquierdo</label>
+          <select name="" id="left-angle-select"></select>
+        </div>
+        <div class="form-group">
+          <label for="right-angle-select">Delta ángulo derecho</label>
+          <select name="" id="right-angle-select"></select>
+        </div>
+        <div class="form-group">
+          <label for="factor-select">Factor de reducción</label>
+          <select name="" id="factor-select"></select>
+        </div>
+      </div>
+    </div>
     <canvas></canvas>
     <button id="btn-generate-tree">Generar Arbol</button>
-<div id="control"></div>
+
     <script src="scripts.js"></script>
   </body>
 </html>
